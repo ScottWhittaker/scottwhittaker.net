@@ -131,6 +131,7 @@ blockquote p {
 
 footer {
   padding: 0.5rem 2rem;
+  font-size: smaller;
   color: #fff;
   background-color: var(--color-black);
 }
