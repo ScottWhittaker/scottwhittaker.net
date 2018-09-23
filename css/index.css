@@ -128,3 +128,9 @@ blockquote p {
 .post__list a:hover {
   text-decoration: underline;
 }
+
+footer {
+  padding: 0.5rem 2rem;
+  color: #fff;
+  background-color: var(--color-black);
+}
