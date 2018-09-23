@@ -130,8 +130,13 @@ blockquote p {
 }
 
 footer {
-  padding: 0.5rem 2rem;
+  margin-top: 10rem;
+  padding: 1rem 2rem;
   font-size: smaller;
-  color: #fff;
-  background-color: var(--color-black);
+  background-color: var(--color-grey-lightest);
+  border-top: 4px solid var(--color-primary);
+}
+
+footer a {
+  display: block;
 }
