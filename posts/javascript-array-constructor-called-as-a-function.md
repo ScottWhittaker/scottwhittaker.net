@@ -5,7 +5,7 @@ tags: post
 title:  JavaScript Array Constructor Called as a Function
 ---
 
-In a [previous post](/posts/2017-10-31-javascript-sequential-array-of-numbers/) I used `new Array(4)` to demonstrate generating a sequential list of numbers. It occurred to me that I have never actually typed `new Array()` before and have always used [array literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals) instead.
+In a [previous post](/posts/javascript-sequential-array-of-numbers/) I used `new Array(4)` to demonstrate generating a sequential list of numbers. It occurred to me that I have never actually typed `new Array()` before and have always used [array literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals) instead.
 
 I also wondered what happens if I drop the `new` operator as in `Array(4)`? Well nothing changes as it turns out that when calling the array constructor as a function a new array object is created for you.
 
