@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css" />
+    {% set css %}{% include "css/index.css" %}{% endset %}
+    <style>{{ css | cssmin | safe }}</style>
     <link rel="stylesheet" href="/css/prism-atom-dark.css" />
     <title>{{ title }}</title>
   </head>
