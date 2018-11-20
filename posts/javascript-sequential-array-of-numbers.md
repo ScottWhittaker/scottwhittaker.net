@@ -1,5 +1,5 @@
 ---
-date:   2017-10-31
+date:   2017-10-30
 layout: layouts/post.njk
 tags: post
 title:  Sequential array of numbers in JavaScript
