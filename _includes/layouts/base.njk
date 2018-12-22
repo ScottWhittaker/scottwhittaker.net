@@ -11,7 +11,9 @@
   <body>
     {% include "layouts/header.njk" %}
     <main>
-      {{ content | safe }}
+      <div class="content">
+        {{ content | safe }}
+      </div>
     </main>
     {% include "layouts/footer.njk" %}
   </body>
