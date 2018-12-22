@@ -5,7 +5,7 @@ tags:
     - post
     - tailwind
     - css
-title:  Tailwind default color palette as CSS custom properties
+title:  Tailwind default colour palette as CSS custom properties
 ---
 
 I am sick of trying to put colours together when writing little tests so I am using the [default colour palette from Tailwind CSS](https://tailwindcss.com/docs/colors/#default-color-palette) as css custom properties as a base from now on.
