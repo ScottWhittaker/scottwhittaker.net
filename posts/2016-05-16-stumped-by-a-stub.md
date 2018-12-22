@@ -137,7 +137,7 @@ export const thing = {
 
 Running the test again results in an error...
 
-```
+```bash
 
 ➜  test-thing babel-node thing.spec.js | faucet
 # A contrived stub test
