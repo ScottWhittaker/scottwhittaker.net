@@ -129,7 +129,7 @@ blockquote p {
 .post__date {
   display: inline-block;
   margin-bottom: 1rem;
-  color: var(--grey-dark);
+  color: var(--grey-darker);
   border-radius: 2px;
   font-size: small;
   text-transform: uppercase;
@@ -161,7 +161,7 @@ blockquote p {
 footer {
   padding: 2rem 0;
   font-size: smaller;
-  color: var(--grey-dark);
+  color: var(--grey);
 }
 
 footer a {
