@@ -122,7 +122,6 @@ blockquote {
   padding: 1rem;
   background-color: var(--grey-lighter);
   font-size: smaller;
-  font-style: italic;
 }
 
 blockquote p {
