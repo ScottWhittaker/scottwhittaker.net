@@ -5,7 +5,7 @@ tags: post
 title:  DNS probe finished nxdomain error
 ---
 
-I encountered a very frustrating issue for the first time ever when trying to load [https://svelte.dev](https://svelte.dev/). No matter which browser I used the site would not load and chrome reported a `DNS_PROBE_FINISHED_NXDOMAIN` error. I tried all sorts of recommended fixes such as changing DNS servers in network settings and flushing the DNS cache but none of them worked (on a mac).
+I encountered a very frustrating issue for the first time ever when trying to load [svelte.dev](https://svelte.dev/). No matter which browser I used the site would not load and chrome reported a `DNS_PROBE_FINISHED_NXDOMAIN` error. I tried all sorts of recommended fixes such as changing DNS servers in network settings and flushing the DNS cache but none of them worked (on a mac).
 
 Eventually I stumbled across [this post](https://andycroll.com/ruby/clean-up-broken-dev-domains-after-puma-dns_probe_finished_nxdomain/) which at first did not appear relevant as it was related to `puma-dev` which I am not familiar with. However, I noticed the following...
 
