@@ -30,4 +30,4 @@ I deleted that file and it resolved the issue, I can now get on with life and re
 
 ## Update
 
-I subsequently [found this post](https://superuser.com/questions/1413402/i-cant-visit-websites-that-have-dev-domain) which would have been pretty useful had I stumbled across it first. If only I had know about `scutil --dns` I could have saved hours.
+I subsequently [found this post](https://superuser.com/questions/1413402/i-cant-visit-websites-that-have-dev-domain) via the [svelte FAQs](https://github.com/sveltejs/svelte/wiki/FAQ#is-sveltedev-down) which would have been pretty useful had I stumbled across it first. If only I had know about `scutil --dns` I could have saved hours.
