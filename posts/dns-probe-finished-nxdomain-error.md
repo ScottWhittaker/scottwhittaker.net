@@ -27,3 +27,7 @@ port 20560
 I don't ever recall doing anything with Pow but hey, it has taken over all `.dev` domains. I guess if I had tried loading another site with a `.dev` domain and seen the same issue I may have noticed a pattern - but I didn't.
 
 I deleted that file and it resolved the issue, I can now get on with life and read about [svelte](https://svelte.dev/) at last.
+
+## Update
+
+I subsequently [found this post](https://superuser.com/questions/1413402/i-cant-visit-websites-that-have-dev-domain) which would have been pretty useful had I stumbled across it first. If only I had know about `scutil --dns` I could have saved hours.
