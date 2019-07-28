@@ -12,6 +12,16 @@
     --yellow-darker: #684f1d;
     --yellow-light: #fff382;
     --yellow-lightest: #fcfbeb;
+
+    --blue-100: #EBF8FF;
+    --blue-200: #BEE3F8;
+    --blue-300: #90CDF4;
+    --blue-400: #63B3ED;
+    --blue-500: #4299E1;
+    --blue-600: #3182CE;
+    --blue-700: #2B6CB0;
+    --blue-800: #2C5282;
+    --blue-900: #2A4365;
 }
 
 * {
@@ -187,3 +197,27 @@ footer code {
   color: var(--yellow-darker);
 }
 
+p code {
+  padding: .1rem .3rem;
+  background: var(--grey-lighter);
+  color: var(--grey-darker);
+}
+
+.info {
+  padding: 1rem;
+  border: 1px solid var(--blue-200);
+  color: var(--blue-700);
+  background-color: var(--blue-100);
+  font-size: smaller;
+}
+
+.info a {
+  color: var(--blue-700);
+}
+
+.file-path {
+  margin: 0 0 .5rem 0;
+  color: var(--grey-dark);
+  font-size: .8rem;
+  font-family: courier;
+}
