@@ -1,5 +1,5 @@
 ---
-date:   2019-07-06
+date:   2019-08-06
 layout: layouts/post.njk
 tags: post
 title:  Show or Hide Desktop on OSX
