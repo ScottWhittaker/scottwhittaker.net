@@ -10,6 +10,7 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     {% set css %}{% include "css/index.css" %}{% endset %}
     <style>{{ css | cssmin | safe }}</style>
     <link rel="stylesheet" href="/css/prism-atom-dark.css" />
