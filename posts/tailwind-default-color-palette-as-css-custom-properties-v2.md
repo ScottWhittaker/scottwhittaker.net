@@ -1,5 +1,5 @@
 ---
-date:   2019-10-28
+date:   2019-10-27
 layout: layouts/post.njk
 tags:
     - post
