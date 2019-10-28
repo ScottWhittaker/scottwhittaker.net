@@ -63,7 +63,7 @@ main {
 }
 
 h1 {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 h1,
