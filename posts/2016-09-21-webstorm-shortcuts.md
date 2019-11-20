@@ -11,6 +11,8 @@ To learn more about shortcuts...
 - see the [reference](https://www.jetbrains.com/help/webstorm/2016.1/keyboard-shortcuts-and-mouse-reference.html) for a comprehensive list
 - select `Help > Keymap Reference` from the menu in the editor
 
+<p class="note">Note that the following shortcuts are for MAC only</p>
+
 ## Shortcuts
 
 In no particular order, a list of [WebStorm](https://www.jetbrains.com/webstorm/) shortcuts that I use most often...
@@ -80,4 +82,10 @@ Select `Project View` from the context menu.
 ##### Multiple cursors
 
 `ctrl + G`
+
+##### Select word
+
+`option + up`
+
+Note this is the **Extend Selection** shortcut, if you hold `option` and repeat the `up` key press the selected text will extend.
 
