@@ -3,7 +3,7 @@
 	"lang" : "en",
 	"name" : "Stuff",
 	"scope" : "/",
-	"display" : "browser",
+	"display" : "minimal-ui",
 	"start_url" : "https://scottwhittaker.net/",
 	"short_name" : "Stuff",
 	"theme_color" : "#333333",
