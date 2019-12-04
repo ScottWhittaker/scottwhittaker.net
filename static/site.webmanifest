@@ -6,10 +6,10 @@
 	"display" : "browser",
 	"start_url" : "https://scottwhittaker.net/",
 	"short_name" : "Stuff",
-	"theme_color" : "transparent",
+	"theme_color" : "#333333",
 	"description" : "Occasional brain dumps of mostly web related stuff",
 	"orientation" : "any",
-	"background_color" : "transparent",
+	"background_color" : "#444444",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
 	"icons" : [
