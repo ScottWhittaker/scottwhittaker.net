@@ -1,17 +1,24 @@
 {
   "name": "scottwhittaker.net",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Occasional brain dumps of mostly web related stuff.",
+  "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottWhittaker/scottwhittaker.net.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.5.3"
+  "bugs": {
+    "url": "https://github.com/ScottWhittaker/scottwhittaker.net/issues"
   },
-  "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^1.0.5"
+  "homepage": "https://github.com/ScottWhittaker/scottwhittaker.net#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
   }
 }

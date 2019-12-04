@@ -4,6 +4,7 @@ const CleanCSS = require("clean-css");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy({'static': '/'});
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addFilter('format_date', obj => {
