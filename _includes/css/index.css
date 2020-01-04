@@ -56,6 +56,10 @@ main {
   padding-bottom: 10rem;
 }
 
+main p {
+  line-height: 1.9rem;
+}
+
 .content {
   max-width: 43.75rem;
   margin: 0 auto;
