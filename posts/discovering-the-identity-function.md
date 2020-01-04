@@ -1,5 +1,6 @@
 ---
 date:   2019-03-03
+description: A more declarative way to filter undefined values from an array in JavaScript using the identity function
 layout: layouts/post.njk
 tags: post
 title:  Discovering the identity function

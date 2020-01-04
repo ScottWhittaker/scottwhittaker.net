@@ -1,5 +1,6 @@
 ---
 date:   2019-10-28
+description: How to checkout a remote branch with git
 layout: layouts/post.njk
 tags:
     - post

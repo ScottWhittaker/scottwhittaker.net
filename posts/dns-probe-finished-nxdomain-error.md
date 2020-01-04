@@ -1,5 +1,6 @@
 ---
 date:   2019-05-31
+description: DNS_PROBE_FINISHED_NXDOMAIN error on a .dev domain
 layout: layouts/post.njk
 tags: post
 title:  DNS probe finished nxdomain error

@@ -1,5 +1,6 @@
 ---
 date:   2019-10-28
+description: Some recommendations for a more rigid approach to commit messages
 layout: layouts/post.njk
 tags:
     - post

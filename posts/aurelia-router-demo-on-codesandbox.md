@@ -1,5 +1,6 @@
 ---
 date:   2018-12-28
+description: An Aurelia Router demo on CodeSandbox with nested routes
 layout: layouts/post.njk
 tags:
     - post

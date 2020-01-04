@@ -1,9 +1,9 @@
 ---
 date:   2019-08-22
+description: HTMLMediaElement.readyState property as defined by MDN
 layout: layouts/post.njk
 tags: post
 title:  HTMLMediaElement.readyState
-description: HTMLMediaElement.readyState property as defined by MDN
 ---
 
 I can never recall the `readyState` property of the `HTMLMediaElement` when I need it so here it is as defined by MDN, hopefully it will remain in the brain a little longer now that I have copied it here.

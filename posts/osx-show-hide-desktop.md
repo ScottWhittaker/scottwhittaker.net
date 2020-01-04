@@ -1,5 +1,6 @@
 ---
 date:   2019-08-06
+description: Show or hide the icons on OSX desktop from the command line using an alias
 layout: layouts/post.njk
 tags: post
 title:  Show or Hide Desktop on OSX

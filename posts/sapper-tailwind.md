@@ -1,5 +1,6 @@
 ---
 date:   2019-07-03
+description: A Sapper Tailwind boilerplate
 layout: layouts/post.njk
 tags: post
 title:  Sapper Tailwind

@@ -1,5 +1,6 @@
 ---
 date:   2019-10-27
+description: A Tailwind colour palette as CSS custom properties
 layout: layouts/post.njk
 tags:
     - post

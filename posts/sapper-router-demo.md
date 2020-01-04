@@ -1,5 +1,6 @@
 ---
 date:   2019-06-16
+description: A simple Sapper router demo including examples of nested routes
 layout: layouts/post.njk
 tags: post
 title:  Sapper Router Demo
