@@ -22,6 +22,16 @@
     --blue-700: #2B6CB0;
     --blue-800: #2C5282;
     --blue-900: #2A4365;
+
+    --red-100: #fff5f5;
+    --red-200: #fed7d7;
+    --red-300: #feb2b2;
+    --red-400: #fc8181;
+    --red-500: #f56565;
+    --red-600: #e53e3e;
+    --red-700: #c53030;
+    --red-800: #9b2c2c;
+    --red-900: #742a2a;
 }
 
 * {
@@ -219,6 +229,18 @@ p code {
 
 .info a {
   color: var(--blue-700);
+}
+
+.warn {
+  padding: 1rem;
+  border: 1px solid var(--red-200);
+  color: var(--red-700);
+  background-color: var(--red-100);
+  font-size: smaller;
+}
+
+.warn a {
+  color: var(--red-700);
 }
 
 .file-path {
