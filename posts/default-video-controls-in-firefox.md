@@ -214,7 +214,7 @@ Note that we see a link to the css too.
 />
 ```
 
-Throw that link into a new Firefox browser tab to see it.
+Throw that link into a new browser tab in Firefox to see it.
 
 ```css
 /* This Source Code Form is subject to the terms of the Mozilla Public
