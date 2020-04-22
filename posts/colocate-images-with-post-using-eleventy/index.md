@@ -35,14 +35,15 @@ posts
 │   └── index.md
 ```
 
-To colocate images with the post, we can create another directory within the `colocate-images-with-post-using-eleventy`, in this case I have called it `img`. With the `img` directory add your images.
+To colocate images with the post, we can create another directory within the `colocate-images-with-post-using-eleventy` directory; in this case I have called it `img`. With the `img` directory add your images.
 
 ```shell
 posts
 ├── my-first-post.md
 ├── colocate-images-with-post-using-eleventy
 │   ├── img
-│   │   └── subway.jpg
+│   │   ├── subway.jpg
+│   │   └── umbrellas-and-kites.jpg
 │   └── index.md
 ```
 
