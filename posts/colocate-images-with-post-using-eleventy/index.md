@@ -80,7 +80,7 @@ Note that depending on how you deploy your site you may need to modify your conf
 
 ## Resources
 
-I find out the answer to the missing image files problem in [this video](https://www.learnwithjason.dev/let-s-learn-eleventy) where [Jason Lengstorf](https://www.learnwithjason.dev/about) talks to the creator of Eleventy [Zach Leatherman](https://twitter.com/zachleat).
+I found the answer to the missing image files problem in [this video](https://www.learnwithjason.dev/let-s-learn-eleventy) where [Jason Lengstorf](https://www.learnwithjason.dev/about) talks to the creator of Eleventy [Zach Leatherman](https://twitter.com/zachleat).
 
 - [Eleventy](https://www.11ty.dev/)
 - [Eleventy documentation](https://www.11ty.dev/docs/)
