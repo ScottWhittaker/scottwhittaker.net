@@ -16,7 +16,6 @@ The alternative is to locate all your images in a top level image directory. A c
     <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg" />
 </p>
 
-
 ## File Structure
 
 There are a number of ways to set up your posts in Eleventy, the simplest being a markdown file for your post within your posts directory e.g.
@@ -78,3 +77,10 @@ npx @11ty/eleventy --serve --formats=md,jpg
 </p>
 
 Note that depending on how you deploy your site you may need to modify your configuration to ensure you add the `--formats` flag. For example, if you have continuous integration setup then you will need to add the flag to your build step to ensure the images are copied to the post directory.
+
+## Resources
+
+I find out the answer to the missing image files problem in [this video](https://www.learnwithjason.dev/let-s-learn-eleventy) where [Jason Lengstorf](https://www.learnwithjason.dev/about) talks to the creator of Eleventy [Zach Leatherman](https://twitter.com/zachleat).
+
+- [Eleventy](https://www.11ty.dev/)
+- [Eleventy documentation](https://www.11ty.dev/docs/)
