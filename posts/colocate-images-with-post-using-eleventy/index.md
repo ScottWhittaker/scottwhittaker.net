@@ -6,15 +6,32 @@ tags: post
 title:  Colocate images with your post using Eleventy
 ---
 
+<style>
+    figure {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 4rem 0;
+    }
+    figcaption {
+        margin-top: 8px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: smaller;
+    }
+</style>
+
 This post assumes you know a little bit about [Eleventy](https://www.11ty.dev/), a static site generator, and have it set up for posts. If not you can head over to the [docs](https://www.11ty.dev/docs/) to find out more. Here we look at how to colocate images with your post.
 
 You may want to opt for this approach as the images you are using will only ever be related to the post you are writing or you just prefer to keep all related files in the same directory.
 
 The alternative is to locate all your images in a top level image directory. A combination of both approaches is likely to be useful.
 
-<p style="display: flex; justify-content: center; margin: 4rem 0">
-    <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg" />
-</p>
+<figure>
+    <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg">
+    <figcaption>An example image: Empty seats on a New York subway car</figcaption>
+</figure>
 
 ## File Structure
 
@@ -72,9 +89,10 @@ Here is an example of serving the site for development using the `formats` flag.
 npx @11ty/eleventy --serve --formats=md,jpg
 ```
 
-<p style="display: flex; justify-content: center; margin: 4rem 0">
+<figure>
     <image alt="Beach umbrellas and kites flying" width="600" height="400" src="img/umbrellas-and-kites.jpg" />
-</p>
+    <figcaption>An example image: Beach umbrellas and kites flying</figcaption>
+</figure>
 
 Note that depending on how you deploy your site you may need to modify your configuration to ensure you add the `--formats` flag. For example, if you have continuous integration setup then you will need to add the flag to your build step to ensure the images are copied to the post directory.
 
