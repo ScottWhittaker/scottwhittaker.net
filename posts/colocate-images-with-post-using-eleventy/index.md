@@ -6,7 +6,7 @@ tags: post
 title:  Colocate images with your post using Eleventy
 ---
 
-This post assumes you know a little bit about [Eleventy](https://www.11ty.dev/) and have it set up for posts. If not you can head over to the [docs](https://www.11ty.dev/docs/) to find out more. Here we look at how to colocate images with your post.
+This post assumes you know a little bit about [Eleventy](https://www.11ty.dev/), a static site generator, and have it set up for posts. If not you can head over to the [docs](https://www.11ty.dev/docs/) to find out more. Here we look at how to colocate images with your post.
 
 You may want to opt for this approach as the images you are using will only ever be related to the post you are writing or you just prefer to keep all related files in the same directory.
 
