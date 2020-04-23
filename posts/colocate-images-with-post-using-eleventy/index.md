@@ -51,7 +51,7 @@ posts
 │   └── index.md
 ```
 
-To colocate images with the post, we can create another directory within the `colocate-images-with-post-using-eleventy` directory; in this case I have called it `img`. With the `img` directory add your images.
+To colocate images with the post, we can create another directory within the `colocate-images-with-post-using-eleventy` directory; in this case I have called it `img`. Add your images into this directory.
 
 ```shell
 posts
