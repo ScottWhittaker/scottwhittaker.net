@@ -2,7 +2,9 @@
 date:   2020-04-22
 description: How to colocate your images alongside your post in Eleventy.
 layout: layouts/post.njk
-tags: post
+tags:
+    - post
+    - eleventy
 title:  Colocate images with your post using Eleventy
 ---
 
