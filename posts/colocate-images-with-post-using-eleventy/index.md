@@ -29,7 +29,10 @@ You may want to opt for this approach as the images you are using will only ever
 The alternative is to locate all your images in a top level image directory. A combination of both approaches is likely to be useful.
 
 <figure>
-    <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg">
+    <picture>
+        <source srcset="img/subway.webp" type="image/webp">
+        <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg">
+    </picture>
     <figcaption>An example image: Empty seats on a New York subway car</figcaption>
 </figure>
 
@@ -59,7 +62,9 @@ posts
 ├── colocate-images-with-post-using-eleventy
 │   ├── img
 │   │   ├── subway.jpg
-│   │   └── umbrellas-and-kites.jpg
+│   │   ├── subway.webp
+│   │   ├── umbrellas-and-kites.jpg
+│   │   └── umbrellas-and-kites.webp
 │   └── index.md
 ```
 
@@ -72,7 +77,10 @@ You can then reference your images within `index.md` with markdown like so...
 Or with markup...
 
 ```html
-<image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg" />
+<picture>
+    <source srcset="img/subway.webp" type="image/webp">
+    <image alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg">
+</picture>
 ```
 
 ## Missing Images
@@ -90,8 +98,11 @@ npx @11ty/eleventy --serve --formats=md,jpg
 ```
 
 <figure>
-    <image alt="Beach umbrellas and kites flying" width="600" height="400" src="img/umbrellas-and-kites.jpg" />
-    <figcaption>An example image: Beach umbrellas and kites flying</figcaption>
+    <picture>
+        <source srcset="img/umbrellas-and-kites.webp" type="image/webp">
+        <image alt="Beach umbrellas and kites flying" width="600" height="400" src="img/umbrellas-and-kites.jpg" />
+    </picture>
+    <figcaption>An example image: Empty seats on a New York subway car</figcaption>
 </figure>
 
 Note that depending on how you deploy your site you may need to modify your configuration to ensure you add the `--formats` flag. For example, if you have continuous integration setup then you will need to add the flag to your build step to ensure the images are copied to the post directory.
