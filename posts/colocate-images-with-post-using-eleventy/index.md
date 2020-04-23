@@ -102,7 +102,7 @@ npx @11ty/eleventy --serve --formats=md,jpg
         <source srcset="img/umbrellas-and-kites.webp" type="image/webp">
         <image alt="Beach umbrellas and kites flying" width="600" height="400" src="img/umbrellas-and-kites.jpg" />
     </picture>
-    <figcaption>An example image: Empty seats on a New York subway car</figcaption>
+    <figcaption>An example image: Beach umbrellas and kites flying</figcaption>
 </figure>
 
 Note that depending on how you deploy your site you may need to modify your configuration to ensure you add the `--formats` flag. For example, if you have continuous integration setup then you will need to add the flag to your build step to ensure the images are copied to the post directory.
