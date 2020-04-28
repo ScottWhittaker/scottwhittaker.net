@@ -58,7 +58,7 @@ header {
   padding-top: 1rem;
 }
 
-nav ul {
+nav.primary ul {
   display: flex;
   margin: 0;
   padding: .5rem 0;
@@ -66,12 +66,22 @@ nav ul {
   border-bottom: 1px solid #eee;
 }
 
-nav ul li a {
+nav.secondary ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: .5rem 0;
+  list-style-type: none;
+}
+
+nav.primary ul li a,
+nav.secondary ul li a {
   margin: 0 1rem;
   text-decoration: none;
 }
 
-nav ul li.active {
+nav.primary ul li.active,
+nav.secondary ul li.active {
   background-color: #eee;
 }
 

@@ -1,12 +1,37 @@
 <header>
-    <nav class="content">
-        {% set navPages = collections.all | eleventyNavigation %}
-        <ul>
-        {%- for entry in navPages %}
-            <li{% if entry.url == page.url %} class="active"{% endif %}>
-                <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-            </li>
-        {%- endfor %}
-        </ul>
-    </nav>
+    {% set navPages = collections.all | eleventyNavigation %}
+
+    {{navPages | dump | safe}}
+
+    <script>console.log({{navPages | dump | safe}})</script>
+
+    <div class="content">
+
+        <nav class="primary" aria-label="Primary">
+            <ul>
+            {%- for entry in navPages %}
+                <li{% if entry.url == page.url %} class="active"{% endif %}>
+                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                </li>
+            {%- endfor %}
+            </ul>
+        </nav>
+
+        <nav class="secondary" aria-label="Secondary">
+            <ul>
+            {%- for entry in navPages %}
+                {% set data = collections.all | eleventyNavigation(entry.key) %}
+                    {%- for child in data %}
+                        <li{% if child.url == page.url %} class="active"{% endif %}>
+                            {% if child.url.split('/')[1] === page.url.split('/')[1] %}
+                                <a href="{{ child.url | url }}"> {{ child.title }}</a>
+                            {% endif %}
+                        </li>
+                    {%- endfor %}
+            {%- endfor %}
+            </ul>
+        </nav>
+
+    </div>
+
 </header>
