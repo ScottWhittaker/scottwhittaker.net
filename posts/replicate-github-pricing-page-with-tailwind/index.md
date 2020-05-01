@@ -1,6 +1,6 @@
 ---
 date: 2020-04-29
-description: Replicating then Github pricing page with Tailwind CSS
+description: Replicating the Github pricing page with Tailwind CSS
 layout: layouts/post.njk
 tags:
   - post
@@ -8,20 +8,6 @@ tags:
   - tailwind
 title: Github pricing page with Tailwind CSS
 ---
-
-<style>
-    figure {
-        display: flex;
-        flex-direction: column;
-        margin: 4rem 0;
-    }
-    figcaption {
-        margin-top: 8px;
-        font-weight: bold;
-        font-style: italic;
-        font-size: smaller;
-    }
-</style>
 
 A replication of the Github pricing page using [Tailwind CSS](https://tailwindcss.com/).
 
