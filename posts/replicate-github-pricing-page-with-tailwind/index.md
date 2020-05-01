@@ -31,10 +31,10 @@ I did this a while ago (6th June 2018), so the Github pricing page has changed a
 
 You can view the [live demo on CodePen](https://codepen.io/ScottWhittaker/live/PaGZMO) or [mess around here](https://codepen.io/ScottWhittaker/pen/PaGZMO).
 
-<figure>
-    <picture>
-        <source srcset="img/tailwind-github-pricing-group.webp" type="image/webp">
-        <image alt="Github pricing page replicated using Tailwind" width="604" height="552" src="img/tailwind-github-pricing-group.jpg">
-    </picture>
-    <figcaption>Github pricing page replicated using Tailwind CSS</figcaption>
-</figure>
+
+<p class="codepen" data-height="1758" data-theme-id="39051" data-default-tab="result" data-user="ScottWhittaker" data-slug-hash="PaGZMO" style="height: 1758px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="GitHub pricing page using Tailwind CSS">
+  <span>See the Pen <a href="https://codepen.io/ScottWhittaker/pen/PaGZMO">
+  GitHub pricing page using Tailwind CSS</a> by Scott Whittaker (<a href="https://codepen.io/ScottWhittaker">@ScottWhittaker</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
