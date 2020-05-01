@@ -27,7 +27,7 @@ A replication of the Github pricing page using [Tailwind CSS](https://tailwindcs
 
 Tailwind appears to divide opinion but I really like working with it. I found I could achieve quality results far quicker than I could trying to hand roll a responsive design. I would love to try Tailwind on a real project.
 
-This is a year old now so the Github pricing page has changed and Tailwind has also advanced, but these replications show how it used to look.
+I did this a while ago (6th June 2018), so the Github pricing page has changed and Tailwind has also advanced, but these replications show how it used to look.
 
 You can view the [live demo on CodePen](https://codepen.io/ScottWhittaker/live/PaGZMO) or [mess around here](https://codepen.io/ScottWhittaker/pen/PaGZMO).
 
