@@ -9,21 +9,6 @@ tags:
 title: Carto pricing page with Tailwind CSS
 ---
 
-<style>
-    figure {
-        display: flex;
-        flex-direction: column;
-        margin: 4rem 0;
-    }
-    figcaption {
-        margin-top: 8px;
-        font-weight: bold;
-        font-style: italic;
-        font-size: smaller;
-    }
-</style>
-
-
 Partial reproduction of the [Carto pricing page](https://carto.com/pricing/) using [Tailwind CSS](https://tailwindcss.com/). Note that the Carto pricing page has been updated since I did this replication on 30th May 2018.
 
 [Live demo on CodePen](https://codepen.io/ScottWhittaker/live/bKNprr) or [mess around here](https://codepen.io/ScottWhittaker/pen/bKNprr).
