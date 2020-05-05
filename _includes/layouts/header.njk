@@ -1,10 +1,6 @@
 <header>
     {% set navPages = collections.all | eleventyNavigation %}
 
-    {{navPages | dump | safe}}
-
-    <script>console.log({{navPages | dump | safe}})</script>
-
     <div class="content">
 
         <nav class="primary" aria-label="Primary">
