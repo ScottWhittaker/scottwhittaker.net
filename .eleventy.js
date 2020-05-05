@@ -7,6 +7,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'static': '/'});
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // https://www.11ty.dev/docs/copy/#passthrough-file-copy
+  eleventyConfig.setTemplateFormats([
+    'md',
+    'jpg',
+    'webp',
+    'png'
+  ]);
+
   eleventyConfig.addFilter('format_date_to_date_string', obj => {
     return new Date(obj).toDateString();
   });
