@@ -55,7 +55,7 @@ main {
 }
 
 header {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 header p {
@@ -74,6 +74,27 @@ main p {
   max-width: 43.75rem;
   margin: 0 auto;
   padding: 1rem;
+}
+
+nav ul {
+  margin: 0;
+  padding-bottom: 1rem;
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul li a {
+  padding: 0 .5rem;
+  text-decoration: none;
+}
+
+nav ul li:last-child a {
+  margin-right: 0;
+}
+
+nav ul li a.active {
+  font-weight: bold;
 }
 
 h1 {

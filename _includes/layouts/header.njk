@@ -1,5 +1,12 @@
 <header>
-    <div class="content">
-        <p><a href="/">Stuff</a></p>
-    </div>
+    {% set navPages = collections.all | eleventyNavigation %}
+    <nav class="content">
+        <ul>
+        {% for item in navPages %}
+        <li>
+            <a href="{{item.url}}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a>
+        </li>
+        {% endfor %}
+        </ul>
+    </nav>
 </header>

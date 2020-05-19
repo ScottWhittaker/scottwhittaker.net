@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
@@ -6,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy({'static': '/'});
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // https://www.11ty.dev/docs/copy/#passthrough-file-copy
   // alternatively you can run on command line: npx @11ty/eleventy --serve --formats=md,jpg,webp,png,njk,html,css
