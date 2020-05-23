@@ -11,12 +11,9 @@ title: Carto pricing page with Tailwind CSS
 
 Partial reproduction of the [Carto pricing page](https://carto.com/pricing/) using [Tailwind CSS](https://tailwindcss.com/). Note that the Carto pricing page has been updated since I did this replication on 30th May 2018.
 
-[Live demo on CodePen](https://codepen.io/ScottWhittaker/live/bKNprr) or [mess around here](https://codepen.io/ScottWhittaker/pen/bKNprr).
+You can see the [full demo here](/repro/carto-pricing-page-using-tailwind-css/) or mess around on [Codepen](https://codepen.io/ScottWhittaker/pen/bKNprr). The screenshot below shows the demo on a mobile device.
 
+<div style="display: flex; justify-content: center; padding-top: 2rem;">
+  <image alt="Screenshot of Carto pricing page demo on mobile device" width="400" height="1400" src="img/carto-pricing-page.png">
+</div>
 
-<p class="codepen" data-height="1729" data-theme-id="39051" data-default-tab="result" data-user="ScottWhittaker" data-slug-hash="bKNprr" style="height: 1729px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Carto pricing page using Tailwind CSS">
-  <span>See the Pen <a href="https://codepen.io/ScottWhittaker/pen/bKNprr">
-  Carto pricing page using Tailwind CSS</a> by Scott Whittaker (<a href="https://codepen.io/ScottWhittaker">@ScottWhittaker</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
