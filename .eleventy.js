@@ -8,11 +8,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   // https://www.11ty.dev/docs/copy/#passthrough-file-copy
+  // alternatively you can run on command line: npx @11ty/eleventy --serve --formats=md,jpg,webp,png,njk,html,css
   eleventyConfig.setTemplateFormats([
     'md',
     'jpg',
     'webp',
-    'png'
+    'png',
+    'css',
+    'html'
   ]);
 
   eleventyConfig.addFilter('format_date_to_date_string', obj => {
