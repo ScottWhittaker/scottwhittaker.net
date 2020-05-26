@@ -4,7 +4,7 @@ description: A snippet of background information
 layout: layouts/base.njk
 eleventyNavigation:
     key: About
-    order: 1
+    order: 2
 ---
 
 <h1>{{ title }}</h1>
