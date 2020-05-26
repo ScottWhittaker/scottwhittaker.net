@@ -16,14 +16,6 @@ Some reproductions of sites and/or designs using HTML and CSS. There is somethin
 A few reproductions of the amazing designs at [swissted](https://www.swissted.com/) using HTML and CSS only.
 
 <style>
-
-    @font-face {
-    font-family:"neue-haas-grotesk-display";
-    src:url("https://use.typekit.net/af/8a200c/00000000000000003b9b204a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/8a200c/00000000000000003b9b204a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/8a200c/00000000000000003b9b204a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
-    font-display:auto;font-style:normal;font-weight:600;
-    font-display: swap;
-    }
-
     .swissted {
         margin: 2rem 0;
         padding: 0;
@@ -39,8 +31,9 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
         padding: 1rem;
         text-decoration: none;
         font-size: 24px;
-        font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-        letter-spacing: .2rem;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        letter-spacing: 2px;
     }
 
     .swissted a:hover {
