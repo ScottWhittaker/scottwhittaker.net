@@ -101,3 +101,50 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
 </ul>
 
 You can also view the collection on [Codepen](https://codepen.io/collection/DrYaGV).
+
+
+## Montague Projects
+
+<style>
+    .mp {
+        margin: 2rem 0;
+        padding: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mp li {
+        margin-bottom: 8px;
+    }
+
+    .mp a {
+        height: 200px;
+        display: inline-block;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .mp a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .buffalo {
+        background-color: #ae3733;
+        color: #fff;
+    }
+</style>
+
+I stumbled across these designs at [Montague Projects](http://www.montagueprojects.com/) and on [flickr](https://www.flickr.com/photos/23473719@N08/page1). I love this style of design so thought I would do some reproductions in HTML and CSS.
+
+<ul class="mp">
+    <li><a href="./montague-projects/buffalo-66/" class="buffalo">buffalo 66</a></li>
+</ul>
+
+
+
