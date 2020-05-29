@@ -16,27 +16,29 @@ Some reproductions of sites and/or designs using HTML and CSS. There is somethin
 A few reproductions of the amazing designs at [swissted](https://www.swissted.com/) using HTML and CSS only.
 
 <style>
-    .swissted {
+
+    .list-grid {
         margin: 2rem 0;
         padding: 0;
         list-style-type: none;
+        display: grid;
+        gap: 4px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
 
-    .swissted li {
-        margin-bottom: 8px;
-    }
-
-    .swissted a {
+    .list-grid a {
         display: block;
         padding: 1rem;
+        height: 100%;
         text-decoration: none;
         font-size: 24px;
         font-weight: bold;
         font-family: "Helvetica Neue", Helvetica, sans-serif;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
     }
 
-    .swissted a:hover {
+    .list-grid a:hover {
         background-color: #000;
         color: #fff;
     }
@@ -86,9 +88,14 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
         color: #333;
     }
 
+    .buffalo {
+        background-color: #ae3733;
+        color: #fff;
+    }
+
 </style>
 
-<ul class="swissted">
+<ul class="list-grid">
     <li><a href="./swissted/blondie" class="blondie">blondie</a></li>
     <li><a href="./swissted/david-bowie" class="bowie">david bowie</a></li>
     <li><a href="./swissted/heatmiser" class="heatmiser">heatmiser</a></li>
@@ -105,44 +112,9 @@ You can also view the collection on [Codepen](https://codepen.io/collection/DrYa
 
 ## Montague Projects
 
-<style>
-    .mp {
-        margin: 2rem 0;
-        padding: 0;
-        list-style-type: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .mp li {
-        margin-bottom: 8px;
-    }
-
-    .mp a {
-        height: 200px;
-        display: inline-block;
-        padding: 1rem;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        font-family: "Helvetica Neue", Helvetica, sans-serif;
-        letter-spacing: 2px;
-    }
-
-    .mp a:hover {
-        background-color: #000;
-        color: #fff;
-    }
-
-    .buffalo {
-        background-color: #ae3733;
-        color: #fff;
-    }
-</style>
-
 I stumbled across these designs at [Montague Projects](http://www.montagueprojects.com/) and on [flickr](https://www.flickr.com/photos/23473719@N08/page1). I love this style of design so thought I would do some reproductions in HTML and CSS.
 
-<ul class="mp">
+<ul class="list-grid">
     <li><a href="./montague-projects/buffalo-66/" class="buffalo">buffalo 66</a></li>
 </ul>
 
