@@ -63,3 +63,12 @@ Got into local merge trouble? Then bail out.
 ```shell
 git reset --merge
 ```
+
+## Reset branch from origin
+
+This one always catches me out for some reason. When someone elses PR you already have checked out has changed, if you pull that branch you may get conflicts. I do not want to have mess with conflicts here as it is none of my business so fetch everything then do a hard rest on the origin branch to get the up to date branch.
+
+```shell
+git fetch --all
+git reset --hard origin/<branch-name>
+```
