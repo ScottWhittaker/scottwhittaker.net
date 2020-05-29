@@ -66,7 +66,7 @@ git reset --merge
 
 ## Reset branch from origin
 
-This one always catches me out for some reason. When someone elses PR you already have checked out has changed, if you pull that branch you may get conflicts. I do not want to have mess with conflicts here as it is none of my business so fetch everything then do a hard rest on the origin branch to get the up to date branch.
+This one always catches me out for some reason. When someone elses PR you already have checked out has changed, if you pull that branch you may get conflicts. I do not want to have mess with conflicts here as it is none of my business, fetch everything then do a hard reset on the origin branch to get the latest changes.
 
 ```shell
 git fetch --all
