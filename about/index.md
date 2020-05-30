@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 2
 ---
 
-<h1>{{ title }}</h1>
+# {{ title }}
 
 <style>
     figure {
