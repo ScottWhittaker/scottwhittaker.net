@@ -98,6 +98,11 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
         color: #fff;
     }
 
+    .buffalo-english {
+        background-color: #003146;
+        color: #fff;
+    }
+
 </style>
 
 <ul class="list-grid">
@@ -122,6 +127,7 @@ I stumbled across these designs at [Montague Projects](http://www.montagueprojec
 <ul class="list-grid">
     <li><a href="./montague-projects/buffalo-66/" class="buffalo">buffalo 66</a></li>
     <li><a href="./montague-projects/preparing-instructional-objectives/" class="objectives">preparing instructional objectives</a></li>
+    <li><a href="./montague-projects/buffalo-english/" class="buffalo-english">buffalo english</a></li>
 </ul>
 
 

@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --poster-width: 448px;
+  --poster-height: 600px;
+
+  --blue: #003146;
+  --orange: #f26c50;
+  --white: #fff;
+
+  --square: 90px;
+
+}
+
+body {
+  padding: 64px 0;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+
+}
+
+.poster {
+  margin: 0 auto;
+  padding: 32px;
+  width: var(--poster-width);
+  background-color: var(--blue);
+  position: relative;
+  outline: 8px solid #fff;
+  overflow: hidden;
+}
+
+.artwork {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.artwork > div {
+  width: var(--square);
+  height: var(--square);
+  border-radius: var(--square);
+  background-color: var(--orange);
+}
+
+.artwork > div.highlight {
+  background-color: #fff;
+}
+
+h1 {
+  margin: 16px 0;
+  padding: 8px 0;
+  font-size: 90px;
+  line-height: 76px;
+  text-transform: uppercase;
+  border-top: 4px solid var(--orange);
+  border-bottom: 4px solid var(--orange);
+  /* text-align: center; */
+}
+
+h1 span, h2 {
+  color: var(--orange);
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
