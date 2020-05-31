@@ -1,44 +1,21 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  --black: #333;
-  --background: #eedcb6;
-  --orange: #fb5f14;
-
-  --square: 238px;
-  --gap: 33px;
-  --border-1: calc( var(--square) + var(--gap) );
-  --border-2: calc( var(--square) + var(--gap) * 2 );
-}
-
-body {
-  padding: 64px 0;
-  font-family: 'Anton', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--black);
-  letter-spacing: 2px;
-  background-color: var(--black);
-}
-
 .poster {
+    --black: #333;
+    --background: #eedcb6;
+    --orange: #fb5f14;
+    --square: 238px;
+    --gap: 33px;
+    --border-1: calc( var(--square) + var(--gap) );
+    --border-2: calc( var(--square) + var(--gap) * 2 );
+
   margin: 0 auto;
   padding: 48px;
   width: 400px;
   background-color: var(--background);
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
 }
 
-header {
+.header {
     margin-bottom: 48px;
 }
 
@@ -74,6 +51,7 @@ h2 {
     width: var(--border-1);
     height: var(--border-1);
 }
+
 .artwork div:nth-child(3) {
     width: var(--border-2);
     height: var(--border-2);

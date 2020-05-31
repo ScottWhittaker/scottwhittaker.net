@@ -1,43 +1,18 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
+.poster {
   --poster-width: 448px;
   --poster-height: 600px;
-
   --blue: #003146;
   --orange: #f26c50;
   --white: #fff;
-
   --square: 90px;
 
-}
-
-body {
-  padding: 64px 0;
-  font-family: 'Manrope', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--white);
-
-}
-
-.poster {
   margin: 0 auto;
   padding: 32px;
   width: var(--poster-width);
   background-color: var(--blue);
   position: relative;
   overflow: hidden;
+  font-family: 'Manrope', sans-serif;
 }
 
 .artwork {
@@ -57,7 +32,7 @@ body {
   background-color: #fff;
 }
 
-header {
+.header {
   margin: 16px 0;
   padding: 8px 0;
   border-top: 4px solid var(--orange);
@@ -70,6 +45,7 @@ h1 {
   font-size: 92px;
   line-height: 76px;
   text-transform: uppercase;
+  color: var(--white);
 }
 
 h1 span, h2 {

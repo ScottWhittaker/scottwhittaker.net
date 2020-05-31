@@ -34,10 +34,16 @@
   --red-900: #742a2a;
 }
 
-* {
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -53,10 +59,6 @@ body {
   max-width: 43.75rem;
   margin: 0 auto;
   padding: 1rem;
-}
-
-header {
-  background-color: var(--white);
 }
 
 header {

@@ -12,8 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     <meta name="theme-color" content="#333333"/>
-    {% set css %}{% include "css/index.css" %}{% endset %}
-    <style>{{ css | cssmin | safe }}</style>
+    {% set cssBase %}{% include "css/base.css" %}{% endset %}
+    <style>{{ cssBase | cssmin | safe }}</style>
+    {% set cssArticle %}{% include "css/article.css" %}{% endset %}
+    <style>{{ cssArticle | cssmin | safe }}</style>
     <link rel="stylesheet" href="/css/ally-light.css" />
     <title>{{ title }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
