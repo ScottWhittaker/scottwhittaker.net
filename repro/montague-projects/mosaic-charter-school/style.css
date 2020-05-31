@@ -1,42 +1,22 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  --poster-width: 840px;
-  --poster-height: 600px;
-
-  --primary: #e0d2b5;
-  --blue: #567381;
-  --green: #48845e;
-
-  --square: 250px;
-  --gap: 16px;
-
-}
-
-body {
-  padding: 64px 0;
-  font-family: 'Noto Sans JP', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--primary);
-
+main {
+  overflow: auto;
 }
 
 .poster {
+  --poster-width: 840px;
+  --primary: #e0d2b5;
+  --blue: #567381;
+  --green: #48845e;
+  --square: 250px;
+  --gap: 16px;
+
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 0 auto;
   padding: 24px;
   width: var(--poster-width);
   background-color: var(--primary);
+  color: var(--primary);
+  overflow: hidden;
 }
 
 h1 {

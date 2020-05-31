@@ -1,44 +1,20 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
+.poster {
   --poster-width: 500px;
   --poster-height: 600px;
-
   --primary: #e5d7bc;
   --black: #000;
   --blue: #31818a;
   --green: #4d743d;
   --red: #ae3733;
 
-}
-
-body {
-  padding: 64px 0;
-  font-family: 'Anton', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--primary);
-  background-color: #333;
-}
-
-.poster {
+  position: relative;
   margin: 0 auto;
   margin-bottom: 80px;
   width: var(--poster-width);
   background-color: var(--primary);
-  position: relative;
-  outline: 8px solid #fff;
+  color: var(--primary);
   overflow: hidden;
+  font-family: "Anton", sans-serif;
 }
 
 span {
@@ -54,7 +30,6 @@ span:nth-child(1) {
 }
 
 span:nth-child(2) {
-  /* margin-left: -100px; */
   left: 200px;
 }
 
@@ -70,7 +45,9 @@ span:nth-child(2) {
   color: var(--green);
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   position: absolute;
   z-index: 2;
 }

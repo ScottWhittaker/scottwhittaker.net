@@ -1,0 +1,120 @@
+:root {
+  --black: #22292f;
+  --grey-darkest: #3d4852;
+  --grey-darker: #606f7b;
+  --grey-dark: #8795a1;
+  --grey: #b8c2cc;
+  --grey-light: #dae1e7;
+  --grey-lighter: #f1f5f8;
+  --grey-lightest: #f8fafc;
+  --white: #ffffff;
+  --red-dark: #cc1f1a;
+  --yellow-darker: #684f1d;
+  --yellow-light: #fff382;
+  --yellow-lightest: #fcfbeb;
+
+  --blue-100: #ebf8ff;
+  --blue-200: #bee3f8;
+  --blue-300: #90cdf4;
+  --blue-400: #63b3ed;
+  --blue-500: #4299e1;
+  --blue-600: #3182ce;
+  --blue-700: #2b6cb0;
+  --blue-800: #2c5282;
+  --blue-900: #2a4365;
+
+  --red-100: #fff5f5;
+  --red-200: #fed7d7;
+  --red-300: #feb2b2;
+  --red-400: #fc8181;
+  --red-500: #f56565;
+  --red-600: #e53e3e;
+  --red-700: #c53030;
+  --red-800: #9b2c2c;
+  --red-900: #742a2a;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.125rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: var(--grey-darkest);
+}
+
+.content {
+  max-width: 43.75rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  padding-top: 2rem;
+}
+
+header p {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding-bottom: 1rem;
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul li a {
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+
+nav ul li:last-child a {
+  margin-right: 0;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+footer {
+  padding: 2rem 0;
+  font-size: smaller;
+  color: var(--grey);
+  background-color: var(--grey-darkest);
+}
+
+footer a {
+  display: block;
+  color: var(--white);
+}
+
+footer code {
+  font-size: smaller;
+}
+
+a {
+  color: var(--grey-darkest);
+}
+
+a:hover {
+  color: var(--blue-600);
+}
