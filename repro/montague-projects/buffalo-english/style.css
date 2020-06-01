@@ -1,3 +1,7 @@
+main {
+  overflow: auto;
+}
+
 .poster {
   --poster-width: 448px;
   --poster-height: 600px;
@@ -12,7 +16,7 @@
   background-color: var(--blue);
   position: relative;
   overflow: hidden;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .artwork {
@@ -48,7 +52,8 @@ h1 {
   color: var(--white);
 }
 
-h1 span, h2 {
+h1 span,
+h2 {
   color: var(--orange);
 }
 

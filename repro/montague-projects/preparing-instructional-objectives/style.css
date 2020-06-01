@@ -1,63 +1,67 @@
+main {
+  overflow: auto;
+}
+
 .poster {
-    --black: #333;
-    --background: #eedcb6;
-    --orange: #fb5f14;
-    --square: 238px;
-    --gap: 33px;
-    --border-1: calc( var(--square) + var(--gap) );
-    --border-2: calc( var(--square) + var(--gap) * 2 );
+  --black: #333;
+  --background: #eedcb6;
+  --orange: #fb5f14;
+  --square: 238px;
+  --gap: 33px;
+  --border-1: calc(var(--square) + var(--gap));
+  --border-2: calc(var(--square) + var(--gap) * 2);
 
   margin: 0 auto;
   padding: 48px;
   width: 400px;
   background-color: var(--background);
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   letter-spacing: 2px;
 }
 
 .header {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 h2 {
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    font-size: 16px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .artwork {
-    position: relative;
-    height: 320px;
+  position: relative;
+  height: 320px;
 }
 
 .artwork div:nth-child(1) {
-    width: var(--square);
-    height:  var(--square);
-    background-color: var(--orange);
+  width: var(--square);
+  height: var(--square);
+  background-color: var(--orange);
 }
 
 .artwork div:nth-child(2),
 .artwork div:nth-child(3) {
-    position: absolute;
-    top: 0;
-    border-style: solid;
-    border-color: var(--black);
-    border-width: 8px;
-    border-left: none;
-    border-top: none;
+  position: absolute;
+  top: 0;
+  border-style: solid;
+  border-color: var(--black);
+  border-width: 8px;
+  border-left: none;
+  border-top: none;
 }
 
 .artwork div:nth-child(2) {
-    width: var(--border-1);
-    height: var(--border-1);
+  width: var(--border-1);
+  height: var(--border-1);
 }
 
 .artwork div:nth-child(3) {
-    width: var(--border-2);
-    height: var(--border-2);
+  width: var(--border-2);
+  height: var(--border-2);
 }
 
 p {
-    font-size: 12px;
-    text-transform: uppercase;
+  font-size: 12px;
+  text-transform: uppercase;
 }

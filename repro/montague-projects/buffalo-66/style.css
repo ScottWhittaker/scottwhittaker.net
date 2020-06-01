@@ -1,3 +1,7 @@
+main {
+  overflow: auto;
+}
+
 .poster {
   --poster-width: 500px;
   --poster-height: 600px;
