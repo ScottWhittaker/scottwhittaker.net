@@ -6,16 +6,8 @@
   --white: #dde1d5;
   --yellow: #ffd101;
 
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: var(--poster-padding);
-  width: var(--poster-width);
-  height: var(--poster-height);
-  outline: 16px solid #eee;
   background-color: var(--orange);
   color: var(--white);
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .artwork {

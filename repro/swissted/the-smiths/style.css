@@ -2,16 +2,9 @@
   --poster-width: 400px;
   --poster-height: 600px;
 
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: var(--poster-width);
-  height: var(--poster-height);
   background-color: #dbe0d3;
   color: #000112;
-  outline: 16px solid #eee;
   overflow: hidden;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .header {

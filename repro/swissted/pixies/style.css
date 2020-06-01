@@ -7,17 +7,9 @@
   --white: #dee2d5;
   --circle: 36px;
 
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: var(--poster-padding);
-  width: var(--poster-width);
-  height: var(--poster-height);
   background-color: var(--green);
   color: var(--black);
   overflow: hidden;
-  outline: 16px solid #eee;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .header {

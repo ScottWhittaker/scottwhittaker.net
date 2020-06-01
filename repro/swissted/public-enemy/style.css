@@ -1,5 +1,4 @@
 .poster {
-
   --poster-width: 400px;
   --poster-height: 600px;
   --poster-padding: 16px;
@@ -9,17 +8,9 @@
   --red: #d81921;
   --border-width: 20px;
 
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: var(--poster-padding);
-  width: var(--poster-width);
-  height: var(--poster-height);
   background-color: var(--yellow);
   color: #010115;
   overflow: hidden;
-  outline: 16px solid #eee;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .artwork {
