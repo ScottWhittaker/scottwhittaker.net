@@ -1,27 +1,8 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;  
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-}
 
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  color: #00010f;
-}
-
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -30,6 +11,8 @@ body {
   outline: 16px solid #eee;
   overflow: hidden;
   background-color: #dbe2d4;
+  color: #00010f;
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .artwork {
@@ -40,7 +23,7 @@ body {
   margin: 16px 0;
 }
 
-.artwork div {  
+.artwork div {
   width: 380px;
   height: 380px;
   border-width: 100px;
@@ -59,22 +42,22 @@ body {
   mix-blend-mode: multiply;
 }
 
-header {
+.header {
   display: flex;
   align-items: last baseline;
   margin-top: 52px;
 }
 
-h1 {    
+h1 {
   padding: 0 16px;
   font-size: 44px;
 }
 
-header p {
+.header p {
     line-height: 1;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;

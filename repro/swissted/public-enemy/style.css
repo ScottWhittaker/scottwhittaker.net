@@ -1,36 +1,14 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;  
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-}
-
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  color: #010115;
-}
-
-:root {
   --poster-padding: 16px;
   --artwork-height: calc(var(--poster-width) - var(--poster-padding) * 2);
   --yellow: #ffd502;
   --green: #00954c;
   --red: #d81921;
   --border-width: 20px;
-}
 
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -38,8 +16,10 @@ body {
   width: var(--poster-width);
   height: var(--poster-height);
   background-color: var(--yellow);
+  color: #010115;
   overflow: hidden;
   outline: 16px solid #eee;
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .artwork {
@@ -90,21 +70,21 @@ h1 {
   font-size: 34px;
 }
 
-footer {
+.footer {
   display: flex;
   margin-top: auto;
 }
 
-footer p {
+.footer p {
   font-size: 8px;
   font-weight: bold;
 }
 
-footer p:nth-child(1) {
+.footer p:nth-child(1) {
   padding-right: 16px;
 }
 
-footer p:nth-child(3) {
+.footer p:nth-child(3) {
   text-align: right;
   flex: 1;
 }

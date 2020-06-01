@@ -1,22 +1,9 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-
   --black: #270f2b;
   --white: #dbe1d5;
-
   --pink-100: #ed008c;
   --pink-200: #cb017b;
   --pink-300: #b6006f;
@@ -25,18 +12,7 @@ html {
   --pink-600: #630039;
   --pink-700: #460024;
   --pink-800: #060000;
-}
 
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica,
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--black);
-}
-
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -44,25 +20,27 @@ body {
   width: var(--poster-width);
   height: var(--poster-height);
   background-color: var(--pink-100);
+  color: var(--black);
   outline: 16px solid #eee;
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-header {
+.header {
   flex: 1;
   display: flex;
   padding: 16px;
 }
 
-header p {
+.header p {
   font-size: 9px;
   font-weight: bold;
 }
 
-header p:nth-child(1) {
+.header p:nth-child(1) {
   padding-right: 16px;
 }
 
-header p:nth-child(3) {
+.header p:nth-child(3) {
   text-align: right;
   flex: 1;
 }

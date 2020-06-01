@@ -1,31 +1,11 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;  
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-  
   --orange: #ef490f;
   --white: #dde1d5;
   --yellow: #ffd101;
-}
 
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  color: #010115;
-}
-
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -35,6 +15,7 @@ body {
   outline: 16px solid #eee;
   background-color: var(--orange);
   color: var(--white);
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .artwork {
@@ -54,7 +35,7 @@ body {
   width: calc(var(--poster-width) / 9);
   height: calc(var(--poster-width) / 9);
   border-top: calc(var(--poster-width) / 9) solid var(--orange);
-  border-right: calc(var(--poster-width) / 9) solid transparent;  
+  border-right: calc(var(--poster-width) / 9) solid transparent;
 }
 
 h1 {
@@ -62,21 +43,21 @@ h1 {
   font-size: 38px;
 }
 
-footer {  
+.footer {
   display: flex;
   margin-top: auto;
   padding: 16px;
 }
 
-footer p {
+.footer p {
   font-size: 8px;
   font-weight: bold;
 }
 
-footer p:nth-child(1) {
+.footer p:nth-child(1) {
   padding-right: 16px;
 }
 
-footer p:nth-child(2) {
+.footer p:nth-child(2) {
   flex: 1;
 }

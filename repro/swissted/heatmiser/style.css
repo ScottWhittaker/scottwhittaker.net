@@ -1,30 +1,11 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;  
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-  
+
   --black: #010005;
   --grey: #c3c5c7;
-}
 
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  color: var(--black);
-}
-
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -33,19 +14,21 @@ body {
   height: var(--poster-height);
   outline: 16px solid #eee;
   background-color: var(--grey);
+  color: var(--black);
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-header {
+.header {
   display: flex;
   padding: 16px;
   font-size: 9px;
 }
 
-header p:nth-child(1) {
+.header p:nth-child(1) {
   flex: 1;
 }
 
-header p:nth-child(2) {
+.header p:nth-child(2) {
   padding-right: 16px;
 }
 

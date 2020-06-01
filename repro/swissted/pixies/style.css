@@ -1,34 +1,12 @@
-html {
-  box-sizing: border-box;
-}
+.poster {
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;  
-}
-
-:root {
   --poster-width: 400px;
   --poster-height: 600px;
-  
   --black: #02000d;
   --green: #5ebd44;
   --white: #dee2d5;
-  
   --circle: 36px;
-}
 
-body {
-  margin: 32px 0;
-  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  color: var(--black);
-  
-}
-
-.poster {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -36,11 +14,13 @@ body {
   width: var(--poster-width);
   height: var(--poster-height);
   background-color: var(--green);
-  overflow: hidden; 
+  color: var(--black);
+  overflow: hidden;
   outline: 16px solid #eee;
+  font-family: neue-haas-grotesk-display, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-header {
+.header {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -48,25 +28,25 @@ header {
   font-size: 9px;
 }
 
-header div {
+.header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header div:last-child {
+.header div:last-child {
   margin-top: auto;
 }
 
-header div p:last-child {
+.header div p:last-child {
   width: 110px;
 }
 
-header div:last-child p:last-child {
+.header div:last-child p:last-child {
   margin-top: 16px;
   line-height: 1.1rem;
   font-size: 12px;
-  color: var(--white);  
+  color: var(--white);
 }
 
 
@@ -80,10 +60,10 @@ h1 {
   background-color: var(--black);
 }
 
-.artwork-wrapper {  
+.artwork-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   margin-top: -18px;
 }
 
