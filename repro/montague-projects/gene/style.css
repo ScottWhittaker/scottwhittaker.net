@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+main {
+  overflow: auto;
+}
+
+.poster {
+  --black: #333;
+  --white: #fff;
+  --red: #ee4037;
+  --blue: #0098bd;
+  --yellow: #fdb040;
+
+  margin: 0 auto;
+  padding: 16px;
+  width: 752px;
+
+  /* artwork 736 */
+
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Michroma', sans-serif;
+  color: var(--black);
+
+  outline: 8px solid #eee;
+}
+
+.artwork {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+}
+
+.artwork > div {
+    width: 76px;
+    height: 124px;
+}
+
+.artwork > h1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-transform: uppercase;
+    font-size: 86px;
+}
+
+.artwork > h2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    font-size: 28px;
+}
+
+h2 span {
+    color: var(--blue);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+

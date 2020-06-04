@@ -140,6 +140,7 @@ I stumbled across these designs at [Montague Projects](http://www.montagueprojec
     <li><a href="./montague-projects/buffalo-english/" class="buffalo-english">buffalo english</a></li>
     <li><a href="./montague-projects/mosaic-charter-school/" class="mosaic">mosaic charter school</a></li>
     <li><a href="./montague-projects/the-wash-project/" class="the-wash-project">the wash project</a></li>
+    <li><a href="./montague-projects/gene/" class="gene">gene</a></li>
 </ul>
 
 
