@@ -108,6 +108,11 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
         color: #fff;
     }
 
+    .the-wash-project {
+        background-color: #00abc0;
+        color: #fff;
+    }
+
 </style>
 
 <ul class="list-grid">
@@ -134,6 +139,7 @@ I stumbled across these designs at [Montague Projects](http://www.montagueprojec
     <li><a href="./montague-projects/preparing-instructional-objectives/" class="objectives">preparing instructional objectives</a></li>
     <li><a href="./montague-projects/buffalo-english/" class="buffalo-english">buffalo english</a></li>
     <li><a href="./montague-projects/mosaic-charter-school/" class="mosaic">mosaic charter school</a></li>
+    <li><a href="./montague-projects/the-wash-project/" class="the-wash-project">the wash project</a></li>
 </ul>
 
 
