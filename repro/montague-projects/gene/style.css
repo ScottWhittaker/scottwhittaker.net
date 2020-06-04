@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+main {
+  overflow: auto;
+}
+
+.poster {
+  --black: #333;
+  --white: #fff;
+  --red: #ee4037;
+  --blue: #0098bd;
+  --yellow: #fdb040;
+
+  --columns: 8;
+  --block-width: 76px;
+  --block-height: 124px;
+  --gap: 16px;
+  --padding: 16px;
+
+  margin: 0 auto;
+  padding: var(--padding);
+  width: calc( var(--block-width) * var(--columns) + var(--gap) * var(--columns) + var(--padding) * 2 ) ;
+  font-family: 'Michroma', sans-serif;
+  color: var(--black);
+  outline: 8px solid #eee;
+}
+
+.artwork {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: var(--gap);
+}
+
+.artwork > div {
+    width: var(--block-width);
+    height: var(--block-height);
+}
+
+.artwork > h1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-transform: uppercase;
+    font-size: 86px;
+    letter-spacing: 8px;
+}
+
+.artwork > h2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    color: var(--blue);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+
