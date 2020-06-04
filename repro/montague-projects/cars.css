@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap');
+
+.poster {
+
+    --width: 560px;
+    --height: 760px;
+    --padding-x: 28px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 36px var(--padding-x);
+    width: var(--width);
+    height: var(--height);
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: -1px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 32px;
+    flex-grow: 1;
+}
+
