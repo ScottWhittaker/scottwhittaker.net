@@ -62,19 +62,19 @@
     height: 16px;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    background-color: var(--bumper-width)
+    background-color: var(--black);
 }
 
 .land-rover__mirror-body {
     height: 18px;
-    background-color: var(--black)
+    background-color: var(--black);
 }
 
 .land-rover__mirror-bottom {
     height: 16px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    background-color: var(--black)
+    background-color: var(--black);
 }
 
 .land-rover__mirror-arm {
