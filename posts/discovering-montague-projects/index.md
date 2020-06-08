@@ -248,6 +248,4 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
 </div>
 </div>
 
-## Color Palette
-
 
