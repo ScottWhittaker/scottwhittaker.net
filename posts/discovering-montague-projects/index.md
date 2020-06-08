@@ -16,20 +16,29 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
     transform: scaleX(-1);
 }
 
+.wrapper {
+    overflow: auto;
+}
+
 .land-rover {
+
+    --width: 560px;
     --black: #010101;
     --white: #fff;
     --bumper-width: 460px;
     --bumper-height: 32px;
 
-    margin: 128px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+    width: var(--width);
 }
 
 .land-rover__windscreen,
 .land-rover__vents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
     margin-bottom: 12px;
     width: 380px;
     gap: 12px;
@@ -58,7 +67,6 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
     display: flex;
     justify-content: space-between;
     width: 460px;
-    margin: 0 auto;
     margin-top: -12px;
 }
 
@@ -108,7 +116,6 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
     gap: 4px;
     align-items: center;
     width: 428px;
-    margin: 0 auto;
     margin-top: -14px;
 }
 
@@ -176,7 +183,6 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
 }
 
 .land-rover__bumper {
-    margin: 0 auto;
     margin-top: 18px;
     width: var(--bumper-width);
     height: var(--bumper-height);
@@ -186,6 +192,7 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
 
 </style>
 
+<div class="wrapper">
 <div class="poster land-rover">
     <div class="land-rover__windscreen">
         <div></div>
@@ -239,3 +246,8 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
     </div>
     <div class="land-rover__bumper"></div>
 </div>
+</div>
+
+## Color Palette
+
+
