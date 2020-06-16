@@ -262,9 +262,3 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
         <div class="land-rover__bumper"></div>
     </div>
 </div>
-
-<ul class="list-grid">
-    {% for car in cars %}
-<li style="background-color: {{ car.color }}">  </li>
-    {% endfor %}
-</ul>
