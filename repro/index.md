@@ -110,7 +110,7 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
 
     .the-wash-project {
         background-color: #00abc0;
-        color: #fff;
+        color: #333;
     }
 
     .gene {
