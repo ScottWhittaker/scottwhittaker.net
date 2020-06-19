@@ -8,30 +8,19 @@
   --grey-lighter: #f1f5f8;
   --grey-lightest: #f8fafc;
   --white: #ffffff;
-  --red-dark: #cc1f1a;
+
   --yellow-darker: #684f1d;
   --yellow-light: #fff382;
   --yellow-lightest: #fcfbeb;
 
   --blue-100: #ebf8ff;
   --blue-200: #bee3f8;
-  --blue-300: #90cdf4;
-  --blue-400: #63b3ed;
-  --blue-500: #4299e1;
   --blue-600: #3182ce;
   --blue-700: #2b6cb0;
-  --blue-800: #2c5282;
-  --blue-900: #2a4365;
 
   --red-100: #fff5f5;
   --red-200: #fed7d7;
-  --red-300: #feb2b2;
-  --red-400: #fc8181;
-  --red-500: #f56565;
-  --red-600: #e53e3e;
   --red-700: #c53030;
-  --red-800: #9b2c2c;
-  --red-900: #742a2a;
 }
 
 html {
@@ -98,13 +87,14 @@ main {
 footer {
   padding: 2rem 0;
   font-size: smaller;
-  color: var(--grey);
-  background-color: var(--grey-darkest);
+}
+
+footer .content {
+  border-top: 1px solid #eee;
 }
 
 footer a {
   display: block;
-  color: var(--white);
 }
 
 footer code {

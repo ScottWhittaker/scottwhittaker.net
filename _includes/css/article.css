@@ -113,7 +113,7 @@ blockquote p {
   text-decoration: underline;
 }
 
-footer {
+/* footer {
   padding: 2rem 0;
   font-size: smaller;
   color: var(--grey);
@@ -126,7 +126,7 @@ footer a {
 
 footer code {
   font-size: smaller;
-}
+} */
 
 .note {
   padding: 1rem;
