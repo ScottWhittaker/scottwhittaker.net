@@ -4,7 +4,7 @@
   "description": "Occasional brain dumps of mostly web related stuff.",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
