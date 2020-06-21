@@ -25,7 +25,7 @@ I have circa 15 years in web development and I feel like I know less now than wh
 <figure>
     <picture>
         <source srcset="img/about.webp" type="image/webp">
-        <image alt="My mug shot so you can see who you are hiring" width="600" height="450" src="img/about.png">
+        <image alt="My mug shot so you can see who you are hiring" width="600" height="450" src="img/about.jpg">
     </picture>
 </figure>
 
