@@ -5,6 +5,7 @@ layout: layouts/base.njk
 eleventyNavigation:
     key: Reproductions
     order: 1
+templateEngineOverride: njk, md
 ---
 
 # {{ title }}

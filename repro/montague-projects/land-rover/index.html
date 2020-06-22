@@ -3,50 +3,11 @@ title: montague-projects | cars | 1971 Land Rover Series III
 description: Reproduction of 1971 Land Rover Series III design by Montague Projects using HTML and CSS
 layout: layouts/blank.njk
 stylesheets:
-- ../cars.css
-- ./style.css
+- ../car.css
+templateEngineOverride: njk, html
 ---
 
-<div class="poster land-rover">
+<div class="poster" style="background-color: #bd1a8d;">
     <h1>1971<br>Land Rover<br>Series III</h1>
-    <div class="land-rover__windscreen">
-        <div></div>
-        <div></div>
-    </div>
-    <div class="land-rover__vents">
-        <div></div>
-        <div></div>
-    </div>
-    <div class="land-rover__wing-mirrors">
-        <div class="land-rover__wing-mirror flip-h">
-            <div class="land-rover__mirror"></div>
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="land-rover__mirror-arm">
-                <path d="M 20 90 L 20 60 L 80 40" fill="transparent" />
-            </svg>
-        </div>
-        <div class="land-rover__wing-mirror">
-            <div class="land-rover__mirror"></div>
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="land-rover__mirror-arm">
-                <path d="M 20 90 L 20 60 L 80 40" fill="transparent" />
-            </svg>
-        </div>
-    </div>
-    <div class="land-rover__nose">
-        <div class="land-rover__lights">
-            <div class="land-rover__side-light"></div>
-            <div class="land-rover__headlight">
-                <div></div>
-            </div>
-            <div class="land-rover__side-light land-rover__side-light__two"></div>
-        </div>
-        <div class="land-rover__grill"></div>
-        <div class="land-rover__lights flip-h">
-            <div class="land-rover__side-light"></div>
-            <div class="land-rover__headlight">
-                <div></div>
-            </div>
-            <div class="land-rover__side-light side-light__two"></div>
-        </div>
-    </div>
-    <div class="land-rover__bumper"></div>
+    {% include "./_land-rover.html" %}
 </div>
