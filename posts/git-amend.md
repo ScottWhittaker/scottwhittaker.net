@@ -10,6 +10,18 @@ title:  Git Amend
 
 Some `amend` snippets that are worth remembering. See [the documentation](https://git-scm.com/docs/git-commit) for all the commit joy.
 
+## Amend last local commit message
+
+```shell
+git commit --amend -m  'amended commit message'
+```
+
+You can also do the following which will open an editor allowing you to modify the message.
+
+```shell
+git commit --amend
+```
+
 ## Amend with `--no-edit`
 
 This allows you to amend the last commit with any changes you have made without changing the commit message.
