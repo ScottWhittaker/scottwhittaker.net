@@ -12,3 +12,4 @@ Just another CSS border radius generator to add to the mix. I was starting [this
 
 <a href="https://css-border-radius-generator.netlify.app/" style="padding: 1rem; background-color: #333; color: #fff;">CSS Border Radius Generator</a>
 
+You can view the [repo](https://github.com/ScottWhittaker/css-border-radius-generator)
