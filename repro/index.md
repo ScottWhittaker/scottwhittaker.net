@@ -124,6 +124,11 @@ A few reproductions of the amazing designs at [swissted](https://www.swissted.co
         color: #fff;
     }
 
+    .volkswagen-vanagan-t3 {
+        background-color: #ea1f46;
+        color: #fff;
+    }
+
 </style>
 
 <ul class="list-grid">
@@ -160,6 +165,7 @@ I stumbled across these designs at [Montague Projects](http://www.montagueprojec
 
 <ul class="list-grid">
     <li><a href="./montague-projects/land-rover/" class="land-rover">1971 Land Rover Series III</a></li>
+    <li><a href="./montague-projects/volkswagen-vanagan-t3/" class="volkswagen-vanagan-t3">1979 Volkswagen Vanagan T3</a></li>
 </ul>
 
 
