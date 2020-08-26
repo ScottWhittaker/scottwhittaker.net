@@ -1,5 +1,5 @@
 ---
-date:   2020-08-24
+date:   2020-08-26
 description: How to unmount a USB drive from a bash script. 
 layout: layouts/post.njk
 tags:
