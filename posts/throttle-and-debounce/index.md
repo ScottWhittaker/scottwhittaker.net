@@ -7,7 +7,7 @@ tags:
 title:  Throttle and Debounce
 ---
 
-Whenever I need to use throttle or debounce I have to remind myself of the differences. Here are a few of definitions as a reminder.
+Whenever I need to use throttle or debounce I have to remind myself of the differences. Here are a few definitions as a reminder.
 
 ## Throttle
 
